@@ -1,14 +1,14 @@
 {
 	"schemaVersion": 1,
-	"id": "template-mod",
+	"id": "mproxy-mod",
 	"version": "${version}",
-	"name": "Template Mod",
-	"description": "This is an example description! Tell everyone what your mod is about!",
+	"name": "MammothProxy MOD",
+	"description": "Mod, that created specially for MammothProxy.",
 	"authors": [
-		"Me!"
+		"TurboKoT"
 	],
 	"contact": {
-		"homepage": "https://fabricmc.net/",
+		"homepage": "https://dsc.gg/mamproxy",
 		"sources": "https://github.com/FabricMC/fabric-example-mod"
 	},
 	"license": "CC0-1.0",
@@ -16,7 +16,10 @@
 	"environment": "*",
 	"entrypoints": {
 		"main": [
-			"com.mammothproxy.mod.TemplateMod"
+          "com.mammothproxy.mod.MammothProxyMod"
+		],
+		"client": [
+			"com.mammothproxy.mod.client.MammothProxyMod.MammothProxyClient"
 		]
 	},
 	"mixins": [
