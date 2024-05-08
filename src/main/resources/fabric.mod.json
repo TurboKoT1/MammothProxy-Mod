@@ -9,7 +9,7 @@
 	],
 	"contact": {
 		"homepage": "https://dsc.gg/mamproxy",
-		"sources": "https://github.com/FabricMC/fabric-example-mod"
+		"sources": "https://github.com/TurboKoT1/MammothProxy-Mod"
 	},
 	"license": "CC0-1.0",
 	"icon": "assets/template-mod/icon.png",
@@ -23,7 +23,7 @@
 		]
 	},
 	"mixins": [
-		"template-mod.mixins.json"
+		"mammothproxy-mod.mixins.json"
 	],
 	"depends": {
 		"fabricloader": ">=0.15.9",
