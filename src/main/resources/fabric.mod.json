@@ -19,7 +19,7 @@
           "com.mammothproxy.mod.MammothProxyMod"
 		],
 		"client": [
-			"com.mammothproxy.mod.client.MammothProxyMod.MammothProxyClient"
+          "com.mammothproxy.mod.client.MammothProxyClient"
 		]
 	},
 	"mixins": [
